@@ -6,6 +6,8 @@ Not all options of the command line tool are available through this Kodi addon, 
 
 Note that this tool is in no way affiliated with, or endorsed by, ExpressVPN ([https://www.expressvpn.com/])
 
+Geolocation information is fetched from https://ipinfo.io/json
+
 The logo comes from a website with rights-free images (forgot which one: contact me if you feel that this is an error)
 
 The country flags come from https://flagpedia.net/
