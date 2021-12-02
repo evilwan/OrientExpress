@@ -6,13 +6,9 @@ Not all options of the command line tool are available through this Kodi addon, 
 
 Note that this tool is in no way affiliated with, or endorsed by, ExpressVPN ([https://www.expressvpn.com/])
 
-The geolocation code is provided by the upstream code (OpenVPN for Kodi)
-
-This code is currently more of a quick hack of the original OpenVPN code, so there is plenty of room for improvements if you feel so inclined.
-
-Most of the code is probably copryrighted by the upstream author. The only file in this tool that is written more or less from scratch is resources/lib/orientexpress.py but even that file is heavily inspired by the original file resources/lib/openvpn.py
-
 The logo comes from a website with rights-free images (forgot which one: contact me if you feel that this is an error)
+The country flags come from https://flagpedia.net/
+The fanart image comes from https://images.wallpaperscraft.com/image/single/train_railway_bridge_122067_1600x900.jpg
 
 Features
 -----
@@ -39,7 +35,7 @@ Usage
 
 The tool is rather self-explanatory. The following functions are available:
 
-**Show the current VPN IP configuration (same functionality as the OpenVPN parent tool)
+**Show the current VPN IP configuration
 
 **Show a list of available VPN endpoints (exit servers)
 
@@ -53,21 +49,20 @@ For any other manipulation of the ExpressVPN setup, please use SSH to connect to
 
 Settings
 --------
-For now no configurable settings are implemented.
+
+**expressvpncmd points to the ExpressVPN commandline tool
+**printdebug controls verbose debug logging: set to true to activate the logging in kodi.log
 
 FAQ
 ---
 
 **Is this plugin available in a Kodi addons repository?** No
 
-**I can't get the OrientExpress plugin to work on Raspberry Pi?** Before asking me for help I suggest reading the following [guide][3].
+**I can't get the OrientExpress plugin to work on Raspberry Pi?** Before asking me for help I suggest reading the following [guide][1].
 
 License
 ------
-OrientExpress is a fork of OpenVPN for Kodi.
 
-OpenVPN for Kodi is licensed under the [GPL 3.0 license][2].
+OrientExpress for Kodi is licensed under the 3 clause MIT license.
 
 [1]: http://kodi.wiki/view/HOW-TO:Install_an_Add-on_from_a_zip_file
-[2]: http://www.gnu.org/licenses/gpl-3.0.html
-[3]: http://forums.tvaddons.ag/threads/24769-How-to-set-up-your-VPN-on-raspberry-pi-using-Brain-Hornsby-Openvpn-for-XBMC
