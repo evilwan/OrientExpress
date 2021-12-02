@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+  <section id="script.orientexpress">
+    <category id="general" label="" help="">
+      <group id="actions" label="">
+        <setting id="actionselect" type="action" label="32001" help="">
+          <level>0</level>
+          <data>RunScript(script.orientexpress, select)</data>
+		  <control type="button" format="action">
+			<close>true</close>
+          </control>
+        </setting>
+        <setting id="actionconnect" type="action" label="32002" help="">
+          <level>0</level>
+          <data>RunScript(script.orientexpress, connect)</data>
+		  <control type="button" format="action">
+			<close>true</close>
+          </control>
+        </setting>
+        <setting id="actionlocation" type="action" label="32003" help="">
+          <level>0</level>
+          <data>RunScript(script.orientexpress, location)</data>
+		  <control type="button" format="action">
+			<close>true</close>
+          </control>
+        </setting>
+        <setting id="actiondisconnect" type="action" label="32004" help="">
+          <level>0</level>
+          <data>RunScript(script.orientexpress, disconnect)</data>
+		  <control type="button" format="action">
+			<close>true</close>
+          </control>
+        </setting>
+      </group>
+      <group id="stuff" label="">
+        <setting id="expressvpncmd" type="string" label="32005" help="">
+		  <level>0</level>
+		  <default>/usr/bin/expressvpn</default>
+		  <control type="edit" format="string">
+		  </control>
+        </setting>
+        <setting id="printdebug" type="string" label="32014" help="">
+		  <level>0</level>
+		  <default>false</default>
+		  <control type="edit" format="string">
+		  </control>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>
