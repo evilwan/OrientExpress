@@ -1,5 +1,12 @@
 OrientExpress for Kodi
 ==========
+
+
+## Notice
+
+Moved to [Codeberg](https://codeberg.org/evilwan/hamper) because of policy changes at Github (see
+[Github notice](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13) )
+
 Script for controlling some of the options provided by the ExpressVPN command line tool, from within Kodi. As such, this tool is merely a graphical interface for using that command line tool, it is not a replacement or addon.
 
 Not all options of the command line tool are available through this Kodi addon, just some basic use cases are provided.
